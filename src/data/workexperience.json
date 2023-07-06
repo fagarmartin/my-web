@@ -1,8 +1,39 @@
 [
-{
-  "id":"1abc","title":"Full-Stack Developer","company":"José Estévez S.A.","date":"05/2016 - 12/2022","city":"Jerez de la Frontera,Cádiz","achievements":["Succesfully designed and developed projects for the departments of production, laboratory and  maintenance.","Database design with SQL Management.","Logic implementation.","Testing and debugging.","Implementation and deployment."]
-}
-
-
-
+  {
+    "id": "1abc",
+    "title": "Full-Stack Developer",
+    "company": "José Estévez S.A.",
+    "date": "05/2016 - 12/2022",
+    "city": "Jerez de la Frontera,Cádiz",
+    "achievements": [
+      "Succesfully designed and developed projects for the departments of production, laboratory and  maintenance.",
+      "Database design with SQL Management.",
+      "Logic implementation, testing, debugging and deployment.",
+      "Digital transformation of bottling and maintenance forms."
+    ]
+  },
+  {
+    "id": "2abc",
+    "title": "HMI Programmer",
+    "mode": "Freelance",
+    "company": "Desarrollo de Sistemas Avanzados",
+    "date": "09/2015 – 05/2019",
+    "city": "Jerez de la Frontera,Cádiz",
+    "achievements": [
+      "Designed and developed HMI in C# and .NET following Delphi’s specifications.",
+      "Teamwork and projects built satisfactorily and on time working with a team.",
+      "Traceability through Oracle procedures."
+    ]
+  },
+  {
+    "id": "3abc",
+    "title": "Full Stack Web Developer",
+    "mode": "Freelance",
+    "company": "Desarrollo de Sistemas Avanzados",
+    "date": "07/2015 – 12/2015",
+    "city": "Jerez de la Frontera,Cádiz",
+    "achievements": [
+      "Built a customized application aimed at listing machine components of working orders using Javascript, PHP,JQuery, HTML and CSS."
+    ]
+  }
 ]

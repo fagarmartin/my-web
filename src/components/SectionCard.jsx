@@ -1,4 +1,6 @@
-function SectionCard({ id,title, company, date, city,achievements}) {
+function SectionCard({ title, company, date, city,achievements}) {
+  // hacer que al poner el raton encima salgan las habilidades usadas para cada trabajo
+  
   return (
     <section>
       <h4>{title}</h4>

@@ -1,6 +1,6 @@
+// hacer que al pasar el cursor encima aparezcan las skills de ese trabajo/educacion
 
-
-function SectionElement(each) {
+function SectionElement({each}) {
   return (
     <li>{each}</li>
   )

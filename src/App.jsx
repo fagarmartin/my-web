@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Routes>
-        <Route path="/" element={<Home />} />       
-
+        <Route path="/" element={<Home />} />      
+       
         
         <Route path="*" element={<NotFound/>} />
         <Route path="/error" element={<Error/>} />

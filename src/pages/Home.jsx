@@ -28,7 +28,7 @@ function Home() {
           title="EDUCATION"
         />
 
-        <section>
+        <section id="languages">
           <h2>LANGUAGES</h2>
           <LanguageCard
             language={"English"}

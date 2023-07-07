@@ -1,7 +1,7 @@
 
 function LanguageCard({language,title}) {
   return (
-    <div className="languages">
+    <div className="list-cards" >
     <h4>{language}</h4>
     <h5>{title}</h5>
 

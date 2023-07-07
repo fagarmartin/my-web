@@ -18,13 +18,13 @@ function Home() {
       <div className="my-experience">
         <Section
           data={dataWork}
-          className={"work-experience"}
+          id={"work-experience"}
           title="WORK EXPERIENCE"
           titleTasks="Achievements/Tasks"
         />
         <Section
           data={dataEducation}
-          className={"education"}
+          id={"education"}
           title="EDUCATION"
         />
 

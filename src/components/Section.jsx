@@ -1,7 +1,7 @@
 import SectionCard from "./SectionCard";
-function SectionWork({className,data,title,titleTasks}) {
+function SectionWork({id,data,title,titleTasks}) {
   return (
-    <section className={`${className} card`}>
+    <section id={`${id}`}>
         <h2>{title}</h2>
         {data.map(({ id, title, company, date, city, achievements }) => (
           <SectionCard

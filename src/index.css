@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 /*RED   rgb(219, 59, 59);*/
 /* DARK GREY rgb(31, 30, 30);*/
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Rubik", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(36, 35, 35);
@@ -50,8 +50,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
- justify-content: center;
- padding: 0 15px;
+  justify-content: center;
+  padding: 0 15px;
 }
 
 /* EXPERIENCE*/
@@ -71,12 +71,13 @@ a {
 }
 .achievements-tasks li {
   width: 100%;
-  border-bottom: 1px solid rgba(212, 212, 212, 0.644);
+ 
   text-align: left;
+  border-radius: 3px;
 }
 
 .bg0 {
-  background-color: rgba(129, 128, 128, 0.2);
+  background-color: rgba(129, 128, 128, 0.3);
 }
 
 .bg1 {
@@ -114,15 +115,14 @@ header {
   width: 55%;
   margin: 50px 0;
   font-size: 2em;
- 
 }
 @media only screen and (max-width: 600px) {
-  .header-container  {
+  .header-container {
     width: 80%;
   }
   .title-name {
     font-size: 18vw;
-   padding: 0 50px;
+    padding: 0 50px;
   }
 }
 .header-container p {
@@ -135,28 +135,26 @@ header {
 .about-me p {
   margin-bottom: 25px;
 }
-.soft-skills img{
-width: 60px;
-color:white
+.soft-skills img {
+  width: 60px;
+  color: white;
 }
 /* soft skill card*/
 
-.soft-skills{
+.soft-skills {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:center;
-  gap:50px;
-
-
+  justify-content: center;
+  gap: 50px;
 }
 
-.soft-skill-card h3{
-color: white;
-margin: 10px 5px;
+.soft-skill-card h3 {
+  color: white;
+  margin: 10px 5px;
 }
-.soft-skill-card{
+.soft-skill-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,7 +162,7 @@ margin: 10px 5px;
   width: 300px;
   height: 280px;
   text-align: center;
-  background-color:   rgba(219, 59, 59, 0.603); ;
+  background-color: rgba(219, 59, 59, 0.603);
   border-radius: 25px;
   padding: 40px;
 }

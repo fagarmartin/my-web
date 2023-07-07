@@ -50,6 +50,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+ justify-content: center;
+ padding: 0 15px;
 }
 
 /* EXPERIENCE*/
@@ -89,7 +91,7 @@ a {
 /*HEADER */
 
 .title-name {
-  font-size: 3em;
+  font-size: 8vw;
   font-family: "Archivo Black", sans-serif;
   text-align: center;
 }
@@ -116,7 +118,11 @@ header {
 }
 @media only screen and (max-width: 600px) {
   .header-container  {
-    width: 90%;
+    width: 80%;
+  }
+  .title-name {
+    font-size: 18vw;
+   padding: 0 50px;
   }
 }
 .header-container p {

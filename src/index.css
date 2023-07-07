@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /*RED   rgb(219, 59, 59);*/
 /* DARK GREY rgb(31, 30, 30);*/
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: 'Rubik', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(36, 35, 35);
   color: white;
 }
 
@@ -86,6 +87,7 @@ a {
   background-color: rgba(129, 128, 128, 0.08);
 }
 /*HEADER */
+
 .title-name {
   font-size: 3em;
   font-family: "Archivo Black", sans-serif;
@@ -110,9 +112,13 @@ header {
   width: 55%;
   margin: 50px 0;
   font-size: 2em;
-  
+ 
 }
-
+@media only screen and (max-width: 600px) {
+  .header-container  {
+    width: 90%;
+  }
+}
 .header-container p {
   line-height: 30pt;
 }
@@ -136,7 +142,7 @@ color:white
   align-items: center;
   justify-content:center;
   gap:50px;
-  
+
 
 }
 

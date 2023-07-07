@@ -87,12 +87,13 @@ a {
 }
 /*HEADER */
 .title-name {
-  font-size: 6vw;
+  font-size: 3em;
   font-family: "Archivo Black", sans-serif;
+  text-align: center;
 }
 .title {
   color: white;
-  font-size: 4vw;
+  font-size: 1.5em;
   margin-bottom: 30px;
 }
 
@@ -103,10 +104,15 @@ header {
 }
 
 .header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
   margin: 50px 0;
-  font-size: 2vw;
-  width: 50%;
+  font-size: 2em;
+  
 }
+
 .header-container p {
   line-height: 30pt;
 }

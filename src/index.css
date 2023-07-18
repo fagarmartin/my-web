@@ -188,11 +188,43 @@ header {
   padding: 20px;
 }
 
+.display-info{
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+  
+  
+}
+
+.show{
+  top:0;
+  opacity: 1;
+  height: auto;  
+  transition: all 1s ease, opacity 1s ease;
+  
+}
+
+.hide{ 
+  top:0; 
+  opacity: 0;
+  height: 0;
+  z-index: -1;
+  transition: all 0.2s ease-out;
+}
+
 .list-cards {
   background-color: rgb(44, 43, 43);
   border-radius: 10px 10px 0 0;
   width: 100%;
+
 }
+.list-cards h4:hover{
+  cursor: pointer;
+   
+}
+
+
 /* LANGUAGES */
 #languages {
   display: flex;

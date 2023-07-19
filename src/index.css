@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(36, 35, 35);
-  color: white;
+  color: lightgray;
 }
 html {
   scroll-behavior: smooth;

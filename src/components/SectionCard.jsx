@@ -9,18 +9,18 @@ function SectionCard({ title, company, date, city, achievements, titleTasks }) {
   }
   return (
     <div className="list-cards">
-      <h4 onClick={toggleInfoHandle}>{title}</h4>
-      
-        <div className={`display-info ${toggleInfo}`}>
-          <div className="info-details">
-            <h5>{date}</h5> <h5>{company}</h5> <h5>{city}</h5>
-          </div>
+      <div className="on-display">
+       <div onClick={toggleInfoHandle} className="list-card-title"><span><h4 className="work-title">{title}</h4></span><span> <h5 >{company}</h5></span><span className="date"><h6>{date} ( {city} )</h6></span></div>
+       </div>
+      <div className={`not-on-display ${toggleInfo}`}>
+        <div className={`display-info`}>          
           {titleTasks && <h5>{titleTasks}</h5>}
           <ul className="achievements-tasks">
             {achievements.map((each, i) => {
               return <SectionElement key={`achv${i}`} each={each} index={i} />;
             })}
           </ul>
+          </div>
         </div>
      
     </div>

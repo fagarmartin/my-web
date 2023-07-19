@@ -5,6 +5,7 @@ import NavigationBar from "./components/navigation/NavigationBar";
 import Home from "./pages/Home";
 import Error from "./pages/errors/Error";
 import NotFound from "./pages/errors/NotFound";
+import Cursor from "./components/Cursor";
 
 function App() {  
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="*" element={<NotFound/>} />
         <Route path="/error" element={<Error/>} />
       </Routes>
+      <Cursor/>
     </div>
   )
 }

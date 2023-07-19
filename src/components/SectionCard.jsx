@@ -10,7 +10,7 @@ function SectionCard({ title, company, date, city, achievements, titleTasks }) {
   return (
     <div className="list-cards">
       <div className="on-display">
-       <div onClick={toggleInfoHandle} className="list-card-title"><span><h4 className="work-title">{title}</h4></span><span> <h5 >{company}</h5></span><span className="date"><h6>{date} ( {city} )</h6></span></div>
+       <div onClick={toggleInfoHandle} className="list-card-title"><span><h4 className="work-title">{title}</h4></span><span> <h5 >{company}</h5></span><span className="date"><h6>{date} </h6><span><h6>( {city} )</h6></span></span></div>
        </div>
       <div className={`not-on-display ${toggleInfo}`}>
         <div className={`display-info`}>          

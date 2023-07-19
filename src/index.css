@@ -230,18 +230,22 @@ header {
   width: 100%;
 }
 .list-card-title span{
-  margin:0 25px;
+ 
+  text-align: left;
+  width: 33%;
 }
 
 
 .date {
   text-align: right;
+  width: 20% !important;
 }
 .work-title {
   color: lightgray;
+  margin-left: 10px;
 }
 .list-card-title:hover {
-  cursor: pointer;
+ 
 }
 
 /* LANGUAGES */
@@ -254,4 +258,18 @@ header {
 #languages h5 {
   margin: 0;
   padding: 8px;
+}
+
+
+/* CUSTOM CURSOR*/
+.cursor{
+  background-color: white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top:0;
+  left:0;
+  mix-blend-mode: difference;
+  pointer-events:none
 }

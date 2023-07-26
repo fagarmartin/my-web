@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-/*RED   rgb(219, 59, 59);*/
-/* DARK GREY rgb(31, 30, 30);*/
+/* black #1E1E24*/
+/* primary red #92140C*/
+/* SECONDARY orange #faaa4f*/
+
+/**/
 body {
   margin: 0;
   font-family: "Rubik", sans-serif, -apple-system, BlinkMacSystemFont,
@@ -9,8 +12,8 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(36, 35, 35);
-  color: lightgray;
+  background-color: #FFF8F0;
+  color: #1E1E24;
 }
 html {
   scroll-behavior: smooth;
@@ -28,7 +31,7 @@ h5,
 h6 {
   padding: 0;
   margin: 5px 0;
-  color: rgb(219, 59, 59);
+  
 }
 
 nav {
@@ -112,12 +115,15 @@ a {
 /*HEADER */
 
 .title-name {
-  font-size: 8vw;
+ 
   font-family: "Archivo Black", sans-serif;
   text-align: center;
+  font-size: 10vw;
+  padding: 0 50px;
+  color: #92140C;
 }
 .title {
-  color: white;
+  color: #faaa4f;
   font-size: 1.5em;
   margin-bottom: 30px;
 }
@@ -133,7 +139,6 @@ header {
   flex-direction: column;
   align-items: center;
   width: 55%;
-  margin: 50px 0;
   font-size: 2em;
 }
 @media only screen and (max-width: 600px) {
@@ -141,20 +146,15 @@ header {
   .my-experience {
     width: 90%;
   }
-  .title-name {
-    font-size: 18vw;
-    padding: 0 50px;
-  }
+ 
 }
 .header-container p {
   line-height: 30pt;
 }
 
-.about-me {
-  margin: 50px 0;
-}
+
 .about-me p {
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 .soft-skills img {
   width: 60px;
@@ -169,23 +169,28 @@ header {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  margin-top: 40px;
 }
 
 .soft-skill-card h3 {
-  color: white;
+  color: #92140C;
   margin: 10px 5px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  font-size: 2.2vw;
+  justify-content: flex-start;
 }
 .soft-skill-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 250px;
-  height: 280px;
-  text-align: center;
-  background-color: rgba(219, 59, 59, 0.603);
+  justify-content: flex-start;
+  width: 220px;
+  min-height: 220px;  
+  background-color: #eee6dd;
   border-radius: 25px;
-  padding: 20px;
+  padding:15px 20px;
+  font-size: 1.8vw;
 }
 
 .display-info {
@@ -262,17 +267,18 @@ header {
 
 
 /* CUSTOM CURSOR*/
-.cursor{
+ .cursor{
   background-color: white;
-  height: 32px;
-  width: 32px;
+  height:24px;
+  width: 24px;
   border-radius: 50%;
   position: fixed;
   top:0;
   left:0;
   mix-blend-mode: difference;
   pointer-events:none
-}
+} 
+
 /* @media only screen and (max-width: 700px) {
    .cursor {
       display: 'none' !important;

@@ -26,7 +26,7 @@ function Cursor() {
     return (
       <div
         className="cursor"
-        style={{ top: mousePosition.y - 16, left: mousePosition.x - 16 }}
+        style={{ top: mousePosition.y - 12, left: mousePosition.x - 12 }}
       />
     );
   }

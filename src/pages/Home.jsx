@@ -19,8 +19,8 @@ function Home() {
         <Section
           data={dataWork}
           id={"work-experience"}
-          title="WORK EXPERIENCE"
-          titleTasks="Achievements/Tasks"
+          title="WORK EXPERIENCE"     
+          intro="I have succesfully built multitude of applications for various sectors, from automotive to wineries, using many programming languages, JavaScript, C#, .NET,.. Now I'm looking for an opportunity in the web sector, where I started and where I want to return. I know that for that I have to start again but I do not lack desire and skills."  
         />
         <Section
           data={dataEducation}

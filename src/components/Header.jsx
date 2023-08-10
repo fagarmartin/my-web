@@ -3,7 +3,7 @@ function Header() {
     <header>
       <div className="header-container">
       <h1 className="title-name">FATIMA</h1>
-        <h1 className="title">FRONT-END DEVELOPER</h1>
+        <h1 className="title">FRONTEND DEVELOPER</h1>
         <p>
          Ready to unlock my potential as a Front-End Developer
           and transform pixels into captivating experiences!

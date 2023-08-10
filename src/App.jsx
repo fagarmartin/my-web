@@ -19,7 +19,7 @@ function App() {
         <Route path="*" element={<NotFound/>} />
         <Route path="/error" element={<Error/>} />
       </Routes>
-      <Cursor/>
+      {/* <Cursor/> */}
     </div>
   )
 }

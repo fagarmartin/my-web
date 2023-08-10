@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap");
 /* black #1E1E24*/
 /* primary red #92140C*/
 /* SECONDARY orange #faaa4f*/
@@ -12,8 +13,8 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFF8F0;
-  color: #1E1E24;
+  background-color: #fff8f0;
+  color: #1e1e24;
 }
 html {
   scroll-behavior: smooth;
@@ -31,7 +32,6 @@ h5,
 h6 {
   padding: 0;
   margin: 5px 0;
-  
 }
 
 nav {
@@ -90,6 +90,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: #feefdd;
+  color: #201e1f;
+  border-radius: 0 0 15px 15px;
 }
 .achievements-tasks li {
   width: 100%;
@@ -98,7 +101,7 @@ a {
   padding: 8px;
 }
 
-.bg0 {
+/* .bg0 {
   background-color: rgba(129, 128, 128, 0.3);
 }
 
@@ -111,21 +114,21 @@ a {
 }
 .bg3 {
   background-color: rgba(129, 128, 128, 0.08);
-}
+} */
 /*HEADER */
 
 .title-name {
- 
   font-family: "Archivo Black", sans-serif;
   text-align: center;
-  font-size: 10vw;
+  font-size: 8rem;
   padding: 0 50px;
-  color: #92140C;
+  color: #ff4000;
 }
 .title {
-  color: #faaa4f;
-  font-size: 1.5em;
+  color: #50b2c0;
+  font-size: 2em;
   margin-bottom: 30px;
+  font-family: "Kanit", sans-serif;
 }
 
 header {
@@ -139,19 +142,12 @@ header {
   flex-direction: column;
   align-items: center;
   width: 55%;
-  font-size: 2em;
+  font-size: 2rem;
 }
-@media only screen and (max-width: 600px) {
-  .header-container,
-  .my-experience {
-    width: 90%;
-  }
- 
-}
+
 .header-container p {
   line-height: 30pt;
 }
-
 
 .about-me p {
   margin: 25px 0;
@@ -173,26 +169,27 @@ header {
 }
 
 .soft-skill-card h3 {
-  color: #92140C;
+  color: #ff4000;
   margin: 10px 5px;
   margin-bottom: 20px;
+  font-size: 1.5rem;
   align-self: flex-start;
-  font-size: 2.2vw;
-  justify-content: flex-start;
 }
 .soft-skill-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 220px;
-  min-height: 220px;  
+  width: 260px;
+  min-height: 280px;
   background-color: #eee6dd;
   border-radius: 25px;
-  padding:15px 20px;
-  font-size: 1.8vw;
+  padding: 15px 20px;
 }
-
+.soft-skill-card p {
+  font-size: 1.2rem;
+  text-align: left;
+}
 .display-info {
   position: relative;
   left: 0;
@@ -214,43 +211,48 @@ header {
   z-index: -1;
   transition: max-height 0.2s ease-out;
 }
-
+.by-date {
+  width: 100%;
+}
 .list-cards {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
-  background-color: rgb(44, 43, 43);
   border-radius: 10px 10px 0 0;
   width: 100%;
 }
 
-.list-card-title {
+.list-card-title,
+.list-card-language {
+  font-family: "Kanit", sans-serif;
+
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: left;
-  color: rgb(219, 59, 59); 
+  color: #50b2c0;
+  font-size: 1.3rem;
+  padding: 0 10px;
   width: 100%;
+  background-color: #feefdd;
+  border-radius: 15px 15px 0 0;
+  border-bottom: #ff4000 2px solid;
 }
-.list-card-title span{
- 
-  text-align: left;
-  width: 33%;
+.list-card-title {
+  cursor: pointer;
 }
 
+.display-info h5 {
+  font-size: 1rem;
+}
 
 .date {
-  text-align: right;
-  width: 20% !important;
-}
-.work-title {
-  color: lightgray;
-  margin-left: 10px;
-}
-.list-card-title:hover {
- 
+  font-style: oblique;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #ff4000;
 }
 
 /* LANGUAGES */
@@ -264,10 +266,13 @@ header {
   margin: 0;
   padding: 8px;
 }
-
-
+.intro{
+  font-size: 1.6rem;
+  line-height: 30pt;
+  width: 70%;
+}
 /* CUSTOM CURSOR*/
- .cursor{
+/* .cursor{
   background-color: white;
   height:24px;
   width: 24px;
@@ -277,10 +282,16 @@ header {
   left:0;
   mix-blend-mode: difference;
   pointer-events:none
-} 
+}  */
 
 /* @media only screen and (max-width: 700px) {
    .cursor {
       display: 'none' !important;
   }
 } */
+/* SECTIONS */
+section h2 {
+  color: #ff4000;
+  font-family: "Kanit", sans-serif;
+  font-size: 2rem;
+}
